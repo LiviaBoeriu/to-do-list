@@ -17,6 +17,7 @@ body {
     align-self: center;
 }
 
+/* Font sizing */
 p {
     font-size: 1rem;
     padding: 0;
@@ -41,16 +42,25 @@ h2 {
 h1 {
     font-size: 2rem;
 }
-    
+
+/* Anchor tag common styling */
 a {
     text-decoration: none;
 }
 
+/* Unordered list common styling */
 ul {
     list-style-type: none;
+    padding: 0;
 }
 
 /* Beginning of content style */
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .item {
     display: flex;
     flex-direction: row;
