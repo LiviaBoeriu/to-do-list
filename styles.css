@@ -1,0 +1,19 @@
+/* General style */
+html {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body {
+    height: 50%;
+    background-color: floralwhite;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+/* Beginning of content style */
