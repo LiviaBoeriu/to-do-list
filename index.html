@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Load css file -->
+        <link rel="stylesheet" href="styles.css">
+        <title>To-do list</title>
+    </head>
+    <body>
+        <!-- Main container block for the to-do list -->
+        <div class="container">
+            <!-- Header container for the to-do list -->
+            <div class="header">
+                <header>TO-DO LIST</header>
+                <div class="refresh-button"></div>
+                <div class="date"></div>
+            </div>
+        </div>
+        <!-- Container for the contents of the to do list -->
+        <div class="content">
+            <ul id="list">
+                <li class="item">
+                    <input type="checkbox" id="item-checkbox" name="item-checkbox" value="item">
+                    <p class="item-text"></p>
+                    <button type="item-button"></button>
+                </li>
+            </ul>
+        </div>
+        <!-- Container for add-item section below the to-do list  -->
+        <div class="add-item">
+            <button type="add-item-button"></button>
+            <input type="add-item-text" id="add-item-text" name="add-item-text" placeholder="Add a to-do">
+        </div>
+
+        <!-- Load external javascript file -->
+        <script src="index.js"></script>
+    </body>
+</html>
